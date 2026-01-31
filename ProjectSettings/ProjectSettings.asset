@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 27
+  productGUID: f41020d4f2a34996aa5995cda92032b9
+  companyName: Example Studio
+  productName: GTA Like Android
+  defaultScreenWidth: 1920
+  defaultScreenHeight: 1080
+  defaultScreenOrientation: 0
+  targetDevice: 0
+  use32BitDisplayBuffer: 1
+  applicationIdentifier:
+    Android: com.example.gtalikeunity
+  AndroidMinSdkVersion: 24
+  AndroidTargetSdkVersion: 33
+  AndroidTargetArchitectures: 1
+  AndroidPreferExternalStorage: 0
+  androidUseCustomKeystore: 0
+  scriptingBackend:
+    Android: 1
+  stripEngineCode: 0
