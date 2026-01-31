@@ -26,6 +26,10 @@ namespace GtaLike.UI
 
             Player.MobileInputSource.SetMoveAxis(moveAxis);
             Player.MobileInputSource.SetAction(runPressed);
+
+            var useRect = new Rect(Screen.width - buttonSize - padding, Screen.height - buttonSize * 2f - padding - 10f, buttonSize, buttonSize);
+            var usePressed = GUI.RepeatButton(useRect, "USE");
+            Player.MobileInputSource.SetFire(usePressed);
         }
     }
 }
